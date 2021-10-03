@@ -1,0 +1,81 @@
+.container {
+    width: 800px;
+    margin: 0 auto;
+}
+
+.details {
+    width: 900px;
+    height: 600px;
+    margin: 0 auto;
+    color: #ffffff;
+    background-color: #333333;
+}
+
+.head {
+    display: grid;
+    grid-template-areas:
+    "title space rate";
+    grid-template-columns: 6fr 1fr 140px;
+}
+
+.title {
+    grid-area: title;
+}
+
+.titleName {
+    font-size: 27px;
+    display: inline-block;
+    height: 20px;
+}
+
+.titleYear {
+    display: inline-block;
+    margin-left: 6px;
+    font-size: 24px;
+    color: #C0C0B7;
+}
+
+.rate {
+    grid-area: rate;
+    display: flex;
+    margin-top: 23px;
+    margin-right: 140px;
+}
+
+.star {
+    width: 30px;
+
+}
+
+.rateScore {
+    margin-left: 10px;
+    font-size: 25px;
+}
+
+.fromTen {
+    font-size: 12px;
+    color: #C0C0B7;
+}
+
+.subhead {
+    font-size: 13px;
+    color: #C0C0B7;
+}
+
+.content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+
+.poster {
+
+}
+
+.description {
+    font-size: 17px;
+}
+
+.descrHead {
+    font-weight: bold;
+}

@@ -1,0 +1,36 @@
+.movieSearch {
+    width: 600px;
+    margin: 0 auto;
+}
+
+.movieSearchHeader {
+    font-size: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.movieSearchInput {
+    width: 600px;
+    height: 30px;
+    font-size: 20px;
+}
+
+.searchForm {
+    display: flex;
+    justify-content: space-between;
+}
+
+.searchBtn {
+    margin-left: 10px;
+    border: 1px solid #E2B616;
+    border-radius: 5px;
+    height: 35px;
+    background-color: #F5C518;
+    font-size: 20px;
+    font-weigth: bold;
+}
+
+.searchBtn:hover {
+    cursor: pointer;
+    background-color: #E2B616;
+}

@@ -1,0 +1,14 @@
+.formControl.error input {
+    border: 2px solid #e24a4a;
+}
+.formControl.error span {
+    color: #e24a4a;
+}
+
+.error {
+    color: #e24a4a;
+}
+
+.errorInput {
+    border: 2px solid #e24a4a;
+}

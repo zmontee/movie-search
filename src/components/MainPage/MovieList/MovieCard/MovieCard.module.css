@@ -1,0 +1,52 @@
+.card {
+    padding: 0 6px;
+    color: #ffffff;
+    border-radius: 3px;
+    height: 340px;
+    position: relative;
+    width: 200px;
+    transition: 0.5s;
+    background-color: #333333;
+}
+
+.card:hover {
+    transform: scale(1.1);
+}
+
+.poster {
+    display: block;
+    margin: 0 auto;
+    padding-top: 10px;
+    border-radius: 3%;
+    width: 150px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+    font-weight: bold;
+}
+
+.details {
+    color: #000000;
+    border: 1px solid #F5C518;
+    border-radius: 8px;
+    background-color: #F5C518;
+    height: 30px;
+    width: 100px;
+    margin: 0 auto;
+    position: absolute;
+    bottom: 30px;
+    left: calc(50% - 50px);
+}
+
+.details:hover {
+    cursor: pointer;
+    background-color: #E2B616;
+}
+
+.type {
+    position: absolute;
+    bottom: 5px;
+    color: #C0C0B7;
+}

@@ -1,0 +1,29 @@
+.movieList {
+    margin: 20px auto 0;
+    list-style: none;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(5, 200px);
+    gap: 20px;
+}
+
+.pages {
+    text-align: center;
+    color: #041226;
+    margin: 0 auto;
+}
+
+.preloader {
+    display: block;
+    margin: 0 auto;
+}
+
+.pages span {
+    margin-right: 3px;
+    cursor: pointer;
+}
+
+.selectedPage {
+    font-weight: bold;
+    font-size: 17px;
+}
